@@ -1,0 +1,16 @@
+<form [formGroup]="novaSolicitacaoForm" (ngSubmit)="enviarNovaSolicitacao()" class="">
+    <h5>Valor do financiamento</h5>
+    <input type="text" class="inputValorFinanciamento" pInputText formControlName="valorFinanciamento" required />
+    <div *ngIf="valorFinanciamento?.invalid && (valorFinanciamento?.dirty || valorFinanciamento?.touched)"
+        class="alert alert-danger">
+        <div *ngIf="valorFinanciamento?.errors?.['required']">
+            <span> Valor do financiamento deve ser preenchido! </span>
+        </div>
+    </div>
+    <p></p>
+    <h5>Observações</h5>
+    <textarea [rows]="5" [cols]="30" pInputTextarea class="inputObservacao" formControlName="observacao"></textarea>
+    <button class="Button Form-submit" [disabled]="!novaSolicitacaoForm.valid">
+        enviar solicitação
+    </button>
+</form>

@@ -1,0 +1,76 @@
+<div class="row">
+  <div class="column_scheduling">
+    <h3>Veja o andamento do seu financiamento</h3>
+    <div class="row">
+      <button class="Button Form-submit">
+        Solicitar novo financiamento
+      </button>
+    </div>
+    <div class="flex-container">
+      <div>
+        <span>
+          Valor financiado
+        </span>
+        <p>{{dadosFinanciamento.valorFinanciado}}</p>
+      </div>
+      <div>
+        <span>
+          Saldo atual
+        </span>
+        <p>{{dadosFinanciamento.saldoAtual}}</p>
+      </div>
+      <div>
+        <span>
+          Contratos ativos
+        </span>
+        <p>{{dadosFinanciamento.contratosAtivos}}</p>
+      </div>
+      <div>
+        <span>
+          Receita compartilhada
+        </span>
+        <p>{{dadosFinanciamento.receitaCompartilhada}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="column_routine">
+    <h3>Próximas rotinas</h3>
+    <div class="flex-container_routine">
+      <div>
+        <span>
+          Enviar faturamento até <b>{{proximaRotina.dataEnvioFaturamento}}</b>
+        </span>
+        <p><i class="pi pi-check"></i>
+          {{proximaRotina.diasEnvioFaturamento}} dias</p>
+      </div>
+      <div>
+        <span>
+          Pagar parcela em <b>{{proximaRotina.dataPagarParcelas}}</b>
+        </span>
+        <p><i class="pi pi-spin pi-spinner" style="font-size: 1rem"></i>
+          {{proximaRotina.diasPagarParcelas}} dias</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="charts">
+  <h1><i class="pi pi-chart-line" style="font-size: 1rem"></i> Demonstrativos</h1>
+  <h4>resumo das operações vigentes</h4>
+  <div class="row">
+    <div class="column">
+      <p-chart type="doughnut" [data]="data" width='275px' [options]="optionsGraficoDough">
+      </p-chart>
+    </div>
+    <div class="column_bar">
+      <p-chart type="bar" [data]="data2"></p-chart>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column_bar">
+      <p-chart type="bar" [data]="data2"></p-chart>
+    </div>
+    <div class="column_bar">
+      <p-chart type="bar" [data]="data2"></p-chart>
+    </div>
+  </div>
+</div>

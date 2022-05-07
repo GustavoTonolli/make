@@ -1,0 +1,58 @@
+.Form-submit {
+    border: 1px solid #ff4081;
+    background-color: #ff4081;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 300ms ease-out, max-width 150ms ease-out;
+    outline: none;
+    position: relative;
+    margin-top: 19px;
+    font-family: 'Poppins';
+    padding: 10px;
+  }
+
+.Form-submit:disabled{
+  background-color: #808080;
+  border: 1px solid #808080;
+  cursor: context-menu;
+}
+
+  h5 {
+      margin: 0;
+  }
+
+  .inputValorFinanciamento{
+    border-radius: 15px;
+    box-shadow: 0 1px 3px rgb(197 193 192 / 0%) inset;
+    color: #6d6665;
+    border: 1px solid #c5c1c0;
+    padding: 0.7em 0.7em;
+    margin: 10px 0;
+    transition: box-shadow 300ms ease-out;
+  }
+
+  .alert span{
+    color: #ff4081;
+    margin: 24px 0!important;
+    padding: 0;
+    font-size: 14px!important;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+
+  .inputObservacao{
+    width: 30%;
+    resize: none;
+    border-radius: 15px;
+    box-shadow: 0 1px 3px rgb(197 193 192 / 0%) inset;
+    color: #6d6665;
+    border: 1px solid #c5c1c0;
+    padding: 0.7em 0.7em;
+    margin: 10px 0;
+    transition: box-shadow 300ms ease-out;
+  }
