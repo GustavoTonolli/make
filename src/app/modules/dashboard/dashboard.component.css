@@ -1,5 +1,5 @@
 h1{
-  color: #0d0f77;
+  color: #54595F;
   font-size: 24px;
   line-height: 10px;
   font-weight: bold;
@@ -7,7 +7,7 @@ h1{
 }
 
 h2{
-  color: #ff4081;
+  color: #54595F;
   font-size: 24px;
   line-height: 10px;
   font-weight: bold;
@@ -35,7 +35,7 @@ h4{
 .column_scheduling {
     float: left;
     width: 70%;
-    background-color: #0d0f77;
+    background-color: #54595F;
     margin: 0 10px 0 0;
     padding: 20px 35px 15px 35px;
     color: #fff;
@@ -45,7 +45,7 @@ h4{
   .column_routine {
     float: left;
     width: 30%;
-    background-color: #383dae;
+    background-color: #6B7071;
     margin: 0 10px 0 0;
     padding: 20px 35px 15px 35px;
     color: #fff;
@@ -86,8 +86,8 @@ h4{
 
   
 .Form-submit {
-  border: 1px solid #ff4081;
-  background-color: #ff4081;
+  border: 1px solid #1EB0E6;
+  background-color: #1EB0E6;
   border-radius: 20px;
   color: #fff;
   display: block;
@@ -127,7 +127,7 @@ font-size: 14px;
   text-align: left;
   line-height: 10px;
   justify-content: space-between;
-  border-right: 1px solid #383dae;
+  border-right: 1px solid #fff;
 }
 
 
@@ -167,7 +167,7 @@ line-height: 20px;
   text-align: left;
   line-height: 10px;
   justify-content: space-between;
-  border-right: 1px solid #383dae;
+  border-right: 1px solid #fff;
 }
 
  .flex-container_routine > div:first-child {

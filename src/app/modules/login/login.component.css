@@ -5,8 +5,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    background-color: #0d0f77;
+    justify-content: center;  
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../../assets/pexels-essow-k-936722.jpg);
+    background-size: cover;
     position: absolute;
 }
 
@@ -104,10 +105,10 @@
     outline: #2bbee7 auto 3px;
   }
   .ControlInput:invalid:not(:focus):not(:placeholder-shown) {
-    border-color: #ff4081;
+    border-color: #1EB0E6;
   }
   .ControlInput:invalid:not(:focus):not(:placeholder-shown) + .Control-label {
-    color: #ff4081;
+    color: #1EB0E6;
   }
   .ControlInput:invalid:not(:focus):not(:placeholder-shown) + .Control-label + .Control-requirements {
     max-height: 100px;
@@ -174,8 +175,8 @@
     opacity: 1;
   }
   .Form-submit {
-    border: 1px solid #ff4081;
-    background-color: #ff4081;
+    border: 1px solid #1EB0E6;
+    background-color: #1EB0E6;
     border-radius: 20px;
     color: #fff;
     display: block;
@@ -301,7 +302,7 @@
     border: 1px solid #999;
   }
   .styled-checkbox:checked + label:before {
-    background: #ff4081;
+    background: #1EB0E6;
   }
   .styled-checkbox:disabled + label {
     color: #b8b8b8;
@@ -310,7 +311,7 @@
   .styled-checkbox:disabled + label:before {
     box-shadow: none;
     background: #ddd;
-    background: #ff4081;
+    background: #1EB0E6;
   }
   .styled-checkbox:checked + label:after {
     content: '';
@@ -323,4 +324,8 @@
     box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
     transform: rotate(45deg);
   }
-  
+.makelogo {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}

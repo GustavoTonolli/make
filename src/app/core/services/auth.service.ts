@@ -21,8 +21,8 @@ export class AuthService {
     public listarUsuarios(): any {
         return [
             {
-                email: "teste@teste.com.br",
-                senha: "123456"
+                email: "gustavo.tonolli@makevalue.com.br",
+                senha: "12345678"
             },
             {
                 email: "kelly@divibank.co",

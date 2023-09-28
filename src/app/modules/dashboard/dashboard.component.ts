@@ -58,15 +58,15 @@ export class DashboardComponent implements OnInit {
         {
           data: [300, 50, 100, 10],
           backgroundColor: [
-            "#383dae",
-            "#d91b5c",
-            "#9b51e0",
-            "#56ccf2",
+            "#54595F",
+            "#000",
+            "#1EB0E6",
+            "#999",
           ],
           hoverBackgroundColor: [
-            "#FF6384",
-            "#36A2EB",
-            "#FFCE56"
+            "#1EB0E6",
+            "#999",
+            "#000"
           ]
         }
       ]
@@ -78,7 +78,7 @@ export class DashboardComponent implements OnInit {
       datasets: [{
         type: 'line',
         label: 'A',
-          borderColor: '#383dae',
+          borderColor: '#54595F',
         borderWidth: 0,
         fill: true,
         data: [
@@ -93,7 +93,7 @@ export class DashboardComponent implements OnInit {
       }, {
         type: 'bar',
         label: 'B',
-        backgroundColor: '#383dae',
+        backgroundColor: '#54595F',
         data: [
           21,
           84,
@@ -103,12 +103,12 @@ export class DashboardComponent implements OnInit {
           65,
           34
         ],
-        borderColor: '#383dae',
+        borderColor: '#54595F',
         borderWidth: 0
       }, {
         type: 'bar',
         label: 'C',
-        backgroundColor: '#ea356b',
+        backgroundColor: '#1EB0E6',
         data: [
           41,
           52,
