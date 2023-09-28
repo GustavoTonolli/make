@@ -28,7 +28,7 @@ export class HeaderComponent implements OnInit {
 
     logout(): void{
         this.localStorageService.ExcluirStorage("manterConectado");
-        this.router.navigate(["/login"]);
+        this.router.navigate(["/"]);
     }
 
 }

@@ -1,6 +1,6 @@
 .Form-submit {
-    border: 1px solid #ff4081;
-    background-color: #ff4081;
+    border: 1px solid #1EB0E6;
+    background-color: #1EB0E6;
     border-radius: 20px;
     color: #fff;
     display: block;
@@ -37,7 +37,7 @@
   }
 
   .alert span{
-    color: #ff4081;
+    color: #1EB0E6;
     margin: 24px 0!important;
     padding: 0;
     font-size: 14px!important;

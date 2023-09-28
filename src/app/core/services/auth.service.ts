@@ -22,10 +22,14 @@ export class AuthService {
         return [
             {
                 email: "gustavo.tonolli@makevalue.com.br",
-                senha: "12345678"
+                senha: "123456"
             },
             {
-                email: "kelly@divibank.co",
+                email: "eduardo@makevalue.com.br",
+                senha: "123456"
+            },
+            {
+                email: "vitor@makevalue.com.br",
                 senha: "123456"
             }
         ]

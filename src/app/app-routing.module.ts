@@ -19,7 +19,7 @@ const routes: Routes = [
       { path: 'meusdados', component: MeusDadosComponent },
     ]
   },
-  { path: 'login', component: LoginComponent },
+  { path: '', component: LoginComponent, pathMatch: 'full' },
   { path: '**', component: NotFoundComponent }
 ];
 
